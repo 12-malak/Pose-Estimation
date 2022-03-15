@@ -5,7 +5,7 @@
 
 ![Untitled design (5)](https://user-images.githubusercontent.com/62059604/99800592-9e6e1e80-2b5a-11eb-8f70-4796dd0ee36a.png)
 
-- This repository represents **" Action Recognition Using Alphapose "**.
+
 - With the help of this project we can detect the human Actions/Activities based on the **Human Pose**.
   
 
