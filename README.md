@@ -79,8 +79,7 @@ After obtaining the baf of features model, we are set to predict results for new
 + Support Vector Machines
 + Convolution Neaural Network
 
-### Results
-Results can be visualized by running file [visualize_submissions.py](https://github.com/imRishabhGupta/Indian-Sign-Language-Recognition/blob/master/Visualization/visualize_submissions.py).
+
 
 #### Accuracy without SURF
 
