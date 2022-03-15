@@ -1,4 +1,4 @@
-# Indian-Sign-Language-Recognition
+# Pose-Estimation
 Sign Languages are a set of languages that use predefined actions and movements to convey a message. These languages are primarily developed to aid deaf and other verbally challenged people. They use a simultaneous and precise combination of movement of hands, orientation of hands, hand shapes etc. Different regions have different sign languages like American Sign Language, Indian Sign Language etc. We focus on Indian Sign language in this project.
 
 Indian Sign Language (ISL) is a sign language that is predominantly used in South Asian countries. It is sometimes referred to as Indo-Pakistani Sign Language (IPSL). There are many special features present in ISL that distinguish it from other Sign Languages. Features like Number Signs, Family Relationship, use of space etc. are crucial features of ISL. Also, ISL does not have any temporal inflection.
@@ -22,15 +22,9 @@ Now, using ```pip install``` command, include following dependencies
 + Scipy
 + Opencv
 + Tensorflow
++ PyTorch 1.1+
 
-### Running
-To run the project, perform following steps -
 
-1. Take the dataset folder and all the required python files and put them in the same folder.
-2. Required files are - surf_image_processing.py(Image preprocessing folder), preprocessing_surf.py (Bag of features folder), classification.py(classification folder) and visualize_submissions.py(visualization folder). 
-3. Run the preprocessing_surf.py file to make the csv file of training data set.
-4. classification.py contains the code for svm, knn and many other classifiers.
-5. cnn.py contains the code for deep learning as the name suggests. 
 
 ## Workflow
 
@@ -105,48 +99,5 @@ Results can be visualized by running file [visualize_submissions.py](https://git
 
 
 
-### Requirements
-* Python 3.5+
-* Cython
-* PyTorch 1.1+
-* torchvision 0.3.0+
-* Linux
-* GCC<6.0, 
-
-## :gear: Setup
-1. Install PyTorch :-
-```bash
-$ pip3 install torch==1.1.0 torchvision==0.3.0
-
-```
-2. Install :-
-```bash
-$ export PATH=/usr/local/cuda/bin/:$PATH
-
-```
-```bash
-$ export LD_LIBRARY_PATH=/usr/local/cuda/lib64/:$LD_LIBRARY_PATH
-
-```
-```bash
-$ pip install cython
-
-```
-```bash
-$ sudo apt-get install libyaml-dev
-
-```
-```bash
-$ python setup.py build develop --user
-
-```
-```bash
-$ python -m pip install Pillow==6.2.1
-
-```
-```bash
-$ pip install -U PyYAML
-
-```
 
 
