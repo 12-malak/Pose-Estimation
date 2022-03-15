@@ -18,7 +18,7 @@
 * PyTorch 1.1+
 * torchvision 0.3.0+
 * Linux
-* GCC<6.0, check https://github.com/facebookresearch/maskrcnn-benchmark/issues/25
+* GCC<6.0, 
 
 ## :gear: Setup
 1. Install PyTorch :-
