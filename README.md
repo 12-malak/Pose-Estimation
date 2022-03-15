@@ -10,22 +10,7 @@
   
 
 
-## 🏽‍ Download Object Detection Model
-- Download the object detection model manually : **yolov3-spp.weights** file from following Drive Link
-- https://drive.google.com/file/d/1h2g_wQ270_pckpRCHJb9K78uDf-2PsPd/view?usp=sharing
-- Download the weight file and Place it into **" detector/yolo/data/ "** folder.
 
-##  🏽‍ For Pose Tracking, Download the object tracking model
-- For pose tracking, download the object tracking model manually: **" JDE-1088x608-uncertainty "** from following Drive Link 
-- https://drive.google.com/file/d/1oeK1aj9t7pTi1u70nSIwx0qNVWvEvRrf/view?usp=sharing
-- Download the file and Place it into **" detector/tracker/data/ ".** folder.
-
-## 🏽‍ Download Fast.res50.pt file
-- Download the **" fast.res50.pth "** file from following Drive Link 
-- https://drive.google.com/file/d/1WrvycZnVWwltSa6cjeTznEFOyNAwHEZu/view?usp=sharing
-- Download the file and Place it into **" pretrained_models/ ".** folder.
-
-## :desktop_computer:	Installation
 
 ### Requirements
 * Python 3.5+
