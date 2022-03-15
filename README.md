@@ -1,4 +1,4 @@
-## :running: :walking: :dancer: Pose-With-Action
+## :running: :walking: :dancer: Pose-Estimation
 ![pose_with_action](https://user-images.githubusercontent.com/62059604/99776776-5db0de00-2b37-11eb-97e7-b39f53f2d703.gif)
 
 ![Untitled design (4)](https://user-images.githubusercontent.com/62059604/99800421-5818bf80-2b5a-11eb-83ad-c0fe6a2d48be.png)
@@ -8,13 +8,7 @@
 - This repository represents **" Action Recognition Using Alphapose "**.
 - With the help of this project we can detect the human Actions/Activities based on the **Human Pose**.
   
-## 📝 Description
-- This implemantation is based on official **Alphapose** repository https://github.com/MVIG-SJTU/AlphaPose 
-- In this project we have used **Alphapose** and **XGBOOST** for activity recognition.
 
-## ⏳ Dataset
-- Download the dataset for custom training
-- https://drive.google.com/drive/folders/1CFxvuigTzbnRXUojFeCRozxjUbYiQ8RM?usp=sharing 
 
 ## 🏽‍ Download Object Detection Model
 - Download the object detection model manually : **yolov3-spp.weights** file from following Drive Link
@@ -33,7 +27,7 @@
 
 ## :desktop_computer:	Installation
 
-### :hammer_and_wrench: Requirements
+### Requirements
 * Python 3.5+
 * Cython
 * PyTorch 1.1+
@@ -76,36 +70,5 @@ $ python -m pip install Pillow==6.2.1
 $ pip install -U PyYAML
 
 ```
-## 🎯 Inference demo
-1. Testing with **Images** ( Put test images in **AlphaPose/examples/demo/** )  :-
-```bash
-$ python scripts/demo_inference.py --cfg configs/coco/resnet/256x192_res50_lr1e-3_1x.yaml --checkpoint pretrained_models/fast_res50_256x192.pth --indir examples/demo/ --save_img
 
-```
-2. Testing with **Video** ( Put test video in **AlphaPose/examples/demo/** )  :-
-```bash
-$ python scripts/demo_inference.py --cfg configs/coco/resnet/256x192_res50_lr1e-3_1x.yaml --checkpoint pretrained_models/fast_res50_256x192.pth --video examples/demo/3.mp4 --outdir examples/res1 --save_video --gpus 0
-
-```
-
-
-### :book: Please Go through [Pose_With_Action_HLD2.docx](https://github.com/iNeuron-ai/Pose-with-Action/blob/main/doc/Pose_With_Action_HLD2.docx) for more info.
-
-
-## Contributors <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" width=35 height=25> 
-- Akshay Kumar Prasad	
-- Akshay Namdev Kadam	
-- Arjun K	
-- ATUL KUMAR	
-- Deepak Kumar Behera	
-- Jerryl Davis	
-- Kancharla Bharath Kumar	
-- Karthik P	
-- Madhavi Patel	
-- Mukesh	
-- Oinam Bhobendra	
-- pamita singh kandari	
-- Sameer sudhir Deshmukh	
-- Sasidharan M	
-- shrinivas kandlikar
 
